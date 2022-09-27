@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8CBDA"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/nyka" />
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="2000dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="serif"
+        android:text="CREATE ACCOUNT"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#E14D7F"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="2000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="NAME"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="2000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="2000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="PHONE"
+        android:inputType="phone"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="2000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="USERNAME"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="2000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="2000dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pass"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="#F66295"
+        android:fontFamily="sans-serif"
+        android:text="CREATE"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>
